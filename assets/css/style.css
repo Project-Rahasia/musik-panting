@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+:root {
+  --primary-color-light: #19A7CE;
+  --primary-color-dark: #146C94;
+  --text-color: #F6F1F1;
+  --text-dark: #000000;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  background-color: var(--primary-color-light) !important;
+}
+
+.navbar a {
+  color: var(--text-color) !important;
+  font-weight: 700;
+}
+
+.card {
+  background-color: var(--primary-color-light);
+  color: var(--text-color);
+}
+
+.card:hover {
+  background-color: var(--primary-color-dark);
+  color: var(--text-color);
+}
