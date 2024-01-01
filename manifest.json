@@ -1,0 +1,16 @@
+{
+  "name" : "Musik Panting",
+  "short_name" : "Musik Panting",
+  "description" : "Aplikasi Musik Panting",
+  "start_url" : "/index.html",
+  "display" : "standalone",
+  "background_color" : "#19A7CE",
+  "theme_color" : "#19A7CE",
+  "icons" : [
+      {
+          "src" : "panting.png",
+          "sizes" : "360x360",
+          "type" : "image/png"
+      }
+  ]
+}
