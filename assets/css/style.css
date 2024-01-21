@@ -17,6 +17,7 @@ a {
 
 .navbar {
   background-color: var(--primary-color-light) !important;
+  height: 50px;
 }
 
 .navbar a {
@@ -32,4 +33,10 @@ a {
 .card:hover {
   background-color: var(--primary-color-dark);
   color: var(--text-color);
+}
+
+.navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
 }
