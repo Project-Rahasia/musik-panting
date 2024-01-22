@@ -11,6 +11,10 @@ a {
   text-decoration: none !important;
 }
 
+body {
+  background-color: #c1e0ff;
+}
+
 * {
   font-family: 'Poppins', sans-serif;
 }
@@ -26,17 +30,22 @@ a {
 }
 
 .card {
-  background-color: var(--primary-color-light);
-  color: var(--text-color);
+  background-image: radial-gradient(circle, #cdf5fd, #c5f3fd, #bdf1fd, #b4eefe, #acecfe, #9de6fe, #8de0fe, #7edaff, #64cfff, #49c3ff, #2cb6ff, #00a9ff);
+  color: #3f3f3f;
+  border: 0;
 }
 
 .card:hover {
   background-color: var(--primary-color-dark);
-  color: var(--text-color);
+  color: #747474;
 }
 
 .navbar-brand {
   transform: translateX(-50%);
   left: 50%;
   position: absolute;
+}
+
+.card.panting {
+  background-color: #fff !important;
 }
